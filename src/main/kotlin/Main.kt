@@ -2,16 +2,23 @@ fun greetPerson(greeting:String="Hello", persontogreet:String="Kotlin")=println(
 
 fun main()
 {
-    val Names= arrayOf("Vedant", "Swar", "Nishanth", "Yash")
-    greetPerson(greeting="Kasa ahes")
-    sayHello(greeting="Hey", itemsToGreet = Names )
-    var person=Person()
-    person.firstName
-    person.lastName
-    person.nickName="Vaibhav"
-    person.nickName="Subrat"
-    println(person.nickName)
+
+    val person=Person()
+    person.printInfo()
+
 }
+//fun main()
+//{
+//    val Names= arrayOf("Vedant", "Swar", "Nishanth", "Yash")
+//    greetPerson(greeting="Kasa ahes")
+//    sayHello(greeting="Hey", itemsToGreet = Names )
+//    var person=Person()
+//    person.firstName
+//    person.lastName
+//    person.nickName="Vaibhav"
+//    person.nickName="Subrat"
+//    println(person.nickName)
+//}
 
 //----------------------------------------------------------------------
 fun sayHello(greeting:String,vararg itemsToGreet:String)
